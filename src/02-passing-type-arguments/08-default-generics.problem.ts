@@ -1,6 +1,6 @@
 import { Equal, Expect } from "../helpers/type-utils";
 
-
+// We give a default value to `T`
 export const createSet = <T = string>() => {
   return new Set<T>();
 };
